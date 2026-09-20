@@ -19,6 +19,15 @@ public:
 		case 1:
 			Print("NOOO", Color::Red, Color::Black, { Format::Bold }, Alignment::Centre);
 			break;
+		case 2:
+			Print("MAYBE", Color::Yellow, Color::Black, { Format::Bold }, Alignment::Centre);
+			break;
+		case 3:
+			Print("NEVER", Color::Blue, Color::Black, { Format::Bold }, Alignment::Centre);
+			break;
+		case 4:
+			exit(0);
+			break;
 		}
 	}
 };
